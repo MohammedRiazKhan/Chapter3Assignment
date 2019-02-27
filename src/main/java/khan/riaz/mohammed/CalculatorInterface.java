@@ -12,7 +12,7 @@ public interface CalculatorInterface {
 
     int modulus(int a, int b);
 
-    int percent(int a);
+    double percent(double a);
 
 
 }

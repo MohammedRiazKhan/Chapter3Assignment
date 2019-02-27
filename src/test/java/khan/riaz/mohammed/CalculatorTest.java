@@ -1,6 +1,5 @@
 package khan.riaz.mohammed;
 
-import org.graalvm.compiler.hotspot.stubs.DivisionByZeroExceptionStub;
 import org.junit.*;
 
 import static org.junit.Assert.*;
