@@ -18,6 +18,13 @@
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
 
+  <modules>
+    <module>AddModule</module>
+    <module>SubtractModule</module>
+    <module>PercentModule</module>
+    <module>ModulusModule</module>
+  </modules>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
