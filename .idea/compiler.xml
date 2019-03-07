@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="AddModule" />
         <module name="Chapter3Assignment" />
-        <module name="ModulusModule" />
-        <module name="PercentModule" />
-        <module name="SubtractModule" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AddModule" target="1.5" />
+      <module name="ModulusModule" target="1.7" />
+      <module name="PercentModule" target="1.7" />
+      <module name="SubtractModule" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
